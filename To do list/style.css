@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(19, 1, 20);
+    padding: 0;
+    
+}
+.container{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+input{
+    width: 190px;
+    height: 25px;
+}
+
+
+#add-task{
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 31px;
+    color: white;
+    background-color: rgb(206, 37, 206);
+}
+
+#add-task:hover{
+    color: white;
+    background-color: black;
+   
+}
+.task,.checkTask,.deleteTask{
+    display: flex;
+   text-align: center;
+    align-items: center;
+    margin-left: 5px;
+   
+}
+.task{
+    margin-top: 2px;
+}
+.deleteTask{
+    background-color: red;
+    
+}
+.checkTask,.deleteTask{
+    margin-bottom: 6px;
+}
+
+.checkTask,.deleteTask:hover{
+    transform: scale(1.1); /* Scales the button up by 10% */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for the highlight effect */
+}
+
+
+#task-container{
+    margin-top: 20px;
+    text-align: center;
+    background-color: #CF7793;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    width:400px;
+    justify-content: center;
+    margin-left: 230px;
+  
+
+    
+    
+}
+li{
+    margin-bottom: 10px;
+}
+
+
